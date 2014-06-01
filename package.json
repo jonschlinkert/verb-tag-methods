@@ -1,7 +1,7 @@
 {
   "name": "verb-tag-methods",
   "description": "Easily generate a sorted array, JSON or markdown list, of property names of all enumerable properties, own and inherited, of objects that have function values.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/jonschlinkert/verb-tag-methods",
   "author": {
     "name": "Jon Schlinkert",
