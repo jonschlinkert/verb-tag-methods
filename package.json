@@ -1,0 +1,44 @@
+{
+  "name": "verb-tag-methods",
+  "description": "Easily generate a sorted array, JSON or markdown list, of property names of all enumerable properties, own and inherited, of objects that have function values.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/jonschlinkert/verb-tag-methods",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/verb-tag-methods.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/verb-tag-methods/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/verb-tag-methods/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "verb": "~0.2.5",
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2"
+  },
+  "keywords": [
+    "methods",
+    "verbtag",
+    "verb tag"
+  ],
+  "dependencies": {
+    "list-methods": "^0.3.1",
+    "lodash": "^2.4.1"
+  }
+}
