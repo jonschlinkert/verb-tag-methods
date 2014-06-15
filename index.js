@@ -27,7 +27,7 @@ module.exports = function(verb) {
       var context = _.cloneDeep(verb.context);
       var data = _.extend(context, options, {list: list});
 
-      return verb.template(tmpl, data);
+      return verb.template(tmpl, data).replace(/^\s+|\s+$/g, '');
     }
   };
 
